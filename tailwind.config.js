@@ -3,13 +3,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontSize: {
-        'sm': ['13px', '20px'],
-        'base': ['15px', '20px'],
-        'lg': ['18px', '24px'],
-      },
       fontFamily: {
         inter: ['Inter', 'sans-serif']
+      },
+      fontSize: {
+        sm: ['12px', '1.25rem'],
+        base: ['14px', '1.25rem'],
+        lg: ['17px', '1.5rem'],
+        xl: ['20px', '1.75rem'],
+        '2xl': ['24px', '1.75rem'],
+        '3xl': ['29px', '2rem'],
+
       },
       colors: {
         white: '#fff',

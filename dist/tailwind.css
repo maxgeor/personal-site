@@ -22675,33 +22675,33 @@ video {
 }
 
 .text-sm{
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 1.25rem;
 }
 
 .text-base{
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 1.25rem;
 }
 
 .text-lg{
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 1.5rem;
 }
 
 .text-xl{
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.75rem;
 }
 
 .text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 24px;
+  line-height: 1.75rem;
 }
 
 .text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 29px;
+  line-height: 2rem;
 }
 
 .text-4xl{
@@ -54799,33 +54799,33 @@ video {
   }
 
   .sm\:text-sm{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.25rem;
   }
 
   .sm\:text-base{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.25rem;
   }
 
   .sm\:text-lg{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 1.5rem;
   }
 
   .sm\:text-xl{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.75rem;
   }
 
   .sm\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 1.75rem;
   }
 
   .sm\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 29px;
+    line-height: 2rem;
   }
 
   .sm\:text-4xl{
@@ -86559,33 +86559,33 @@ video {
   }
 
   .md\:text-sm{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.25rem;
   }
 
   .md\:text-base{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.25rem;
   }
 
   .md\:text-lg{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 1.5rem;
   }
 
   .md\:text-xl{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.75rem;
   }
 
   .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 1.75rem;
   }
 
   .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 29px;
+    line-height: 2rem;
   }
 
   .md\:text-4xl{
@@ -118319,33 +118319,33 @@ video {
   }
 
   .lg\:text-sm{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.25rem;
   }
 
   .lg\:text-base{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.25rem;
   }
 
   .lg\:text-lg{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 1.5rem;
   }
 
   .lg\:text-xl{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.75rem;
   }
 
   .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 1.75rem;
   }
 
   .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 29px;
+    line-height: 2rem;
   }
 
   .lg\:text-4xl{
@@ -150079,33 +150079,33 @@ video {
   }
 
   .xl\:text-sm{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.25rem;
   }
 
   .xl\:text-base{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.25rem;
   }
 
   .xl\:text-lg{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 1.5rem;
   }
 
   .xl\:text-xl{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.75rem;
   }
 
   .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 1.75rem;
   }
 
   .xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 29px;
+    line-height: 2rem;
   }
 
   .xl\:text-4xl{
@@ -181839,33 +181839,33 @@ video {
   }
 
   .\32xl\:text-sm{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 1.25rem;
   }
 
   .\32xl\:text-base{
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.25rem;
   }
 
   .\32xl\:text-lg{
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 1.5rem;
   }
 
   .\32xl\:text-xl{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.75rem;
   }
 
   .\32xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 1.75rem;
   }
 
   .\32xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 29px;
+    line-height: 2rem;
   }
 
   .\32xl\:text-4xl{
