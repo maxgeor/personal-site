@@ -7,7 +7,7 @@ module.exports = {
         tablet: '555px'
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
       },
       fontSize: {
         sm: ['12px', '1.25rem'],
@@ -28,7 +28,7 @@ module.exports = {
           DEFAULT: '#716A6E',
         },
         // black: '#100006',
-        black: '#2C2A2B',
+        black: '#343233',
       },
     },
   },
