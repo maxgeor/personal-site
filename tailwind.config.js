@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        tablet: '555px'
+        tablet: '618px'
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
