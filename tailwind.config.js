@@ -8,15 +8,17 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        crimson: ['Crimson Pro', 'serif'],
+        lusitana: ['Lusitana', 'serif'],
       },
       fontSize: {
-        sm: ['13px', '20px'],
-        base: ['15px', '24px'],
+        sm: ['12.5px', '20px'],
+        md: ['15px', '24px'],
+        base: ['16px', '24px'],
         lg: ['18px', '28px'],
         xl: ['21.6px', '28px'],
         '2xl': ['25.92px', '32px'],
         '3xl': ['31.10px', '36px'],
-
       },
       colors: {
         white: '#fff',
