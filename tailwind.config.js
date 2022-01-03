@@ -10,6 +10,7 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         crimson: ['Crimson Pro', 'serif'],
         lusitana: ['Lusitana', 'serif'],
+        young: ['YoungSerif', 'serif'],
       },
       fontSize: {
         sm: ['12.5px', '20px'],
