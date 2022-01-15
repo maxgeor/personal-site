@@ -8,9 +8,6 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-        crimson: ['Crimson Pro', 'serif'],
-        lusitana: ['Lusitana', 'serif'],
-        young: ['YoungSerif', 'serif'],
       },
       fontSize: {
         sm: ['12.5px', '20px'],
@@ -29,7 +26,7 @@ module.exports = {
           lighter: "#8C7B83",
           light: '#91888C',
           DEFAULT: '#716A6E',
-          dark: "#4E434A"
+          dark: "#594F55"
         },
         black: '#100006',
       },
