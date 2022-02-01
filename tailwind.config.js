@@ -8,6 +8,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        cardo: ['Cardo', 'serif'],
       },
       fontSize: {
         sm: ['12.5px', '20px'],
