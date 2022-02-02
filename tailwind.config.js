@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
         cardo: ['Cardo', 'serif'],
+        crimson: ['Crimson Pro', 'serif'],
+        spectral: ['Spectral', 'serif'],
+        nanum: ['Nanum Myeongjo', 'serif'],
       },
       fontSize: {
         sm: ['12.5px', '20px'],
