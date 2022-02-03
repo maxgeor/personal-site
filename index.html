@@ -8,11 +8,10 @@
     <link href="./dist/tailwind.css" rel="stylesheet"/>
 </head>
 
-
-<body class="font-crimson text-md bg-gray-lightest mt-16 mb-16 sm:mb-20 mx-6 antialiased max-w-2xl tablet:mx-auto">
-    <section class="flex flex-col items-center space-y-16 mb-16">
-        <header class="flex flex-col items-center justify-center tablet:mr-10">
-            <svg class="mb-8" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<body class="font-crimson text-md bg-gray-lightest mt-16 mb-20 mx-6 antialiased max-w-lg tablet:mx-auto">
+    <section class="flex flex-col items-center space-y-20">
+        <header class="flex flex-col items-center">
+            <svg class="mb-9" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="28" height="28" rx="2" fill="#2C2A2B"/>
                 <path d="M8.74204 8.57866C7.37219 9.03235 6.12713 9.70851 4.72302 11.0279C4.62267 11.1222 4.62048 11.2807 4.71819 11.3777C6.61962 13.2659 8.08547 13.6526 11.1414 13.2579C11.1536 13.2563 11.1661 13.2538 11.1778 13.2504C13.3201 12.6415 14.573 12.1 16.6015 11.1545C16.7739 11.0741 16.795 10.8374 16.6382 10.7296C14.7049 9.40087 13.1948 8.83767 11.881 8.49986C10.8487 8.23444 9.75387 8.24354 8.74204 8.57866Z" fill="white"/>
                 <path d="M9.30364 11.9731C8.51677 12.0427 7.97797 11.1628 8.23841 10.417C8.35604 10.0802 8.58001 9.78907 8.90104 9.55151C9.28091 9.27043 9.79539 9.19444 10.2378 9.28717C10.8241 9.41001 11.2271 10.0237 11.1379 10.6159C11.0767 11.0228 10.7927 11.2898 10.3802 11.595C10.0447 11.8106 9.66134 11.9415 9.30364 11.9731Z" fill="#2C2A2B"/>
@@ -21,61 +20,56 @@
                 <path d="M16.7104 14.5599C14.6026 15.0487 12.9462 15.6746 10.9512 17.6089C12.944 19.6542 14.4064 20.075 17.5686 19.6642C19.8545 19.0155 21.1273 18.4448 23.3956 17.3831C20.4541 15.2758 18.472 14.9213 16.7104 14.5599Z" fill="white"/>
                 <path d="M15.7123 18.382C14.9255 18.4516 14.3867 17.5717 14.6471 16.8259C14.7647 16.4891 14.9887 16.1979 15.3097 15.9604C15.6896 15.6793 16.2041 15.6033 16.6465 15.696C17.2328 15.8189 17.6358 16.4325 17.5466 17.0248C17.4854 17.4317 17.2014 17.6987 16.7889 18.0039C16.4534 18.2195 16.07 18.3503 15.7123 18.382Z" fill="#2C2A2B"/>
             </svg>
-            <h1 class="mb-5 text-black text-xl font-bold">Max Georgopoulos</h1>
-            <div class="space-y-6 text-gray sm:mr-10">
-                <p>I'm a designer and frontend developer from Toronto. I'm obsessed with the intersection of designing and building software.</p>
-                <p>I believe that the boundary between designers and engineers is artificial — you get the best results by blending the two.</p>
-                <p>Lately, I've been inspired by <a class="underline" target="_blank" href="https://feltpresence.com/">Ryan Singer</a>, <a class="underline" target="_blank" href="https://tailwindcss.com/">TailwindCSS</a>, and crypto in general.</p>
+            <h1 class="mb-6 text-black text-xl font-bold">Max Georgopoulos</h1>
+            <div class="space-y-6 text-gray">
+                <p class="text-center">I'm a designer and frontend developer from Toronto. I'm obsessed with the intersection of designing and building software.</p>
+                <p class="text-center">I believe that the boundary between designers and engineers is artificial — you get the best results by blending the two.</p>
+                <p class="text-center">Lately, I've been inspired by <a class="underline" target="_blank" href="https://feltpresence.com/">Ryan Singer</a>, <a class="underline" target="_blank" href="https://tailwindcss.com/">TailwindCSS</a>, and crypto in general.</p>
             </div>
         </header>
-        <section class="space-y-5">
-            <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Now</h2>
-            <section class="ml-2 space-y-6">
-                <article>
-                    <a href="https://github.com/maxgeor/the-emergent-art-manifesto" target=”_blank” class="font-medium text-black underline-none hover:underline leading-6">The Emergent Art Manifesto</a>
-                    <p class="text-gray">Co-creating an NFT project to introduce a brand new artform: <em>Emergent Art</em>.</p>
-                </article>
+        <div class="max-w-sm mx-auto space-y-20">
+            <section class="flex flex-col items-center space-y-6 ">
+                <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Now</h2>
+                <section class="space-y-6">
+                    <article class="flex flex-col items-center">
+                        <a class="text-center font-semibold text-black underline-none hover:underline" href="https://github.com/maxgeor/the-emergent-art-manifesto" target=”_blank” >The Emergent Art Manifesto</a>
+                        <p class="text-center text-gray">Co-creating an NFT project to introduce a brand new artform: <em>Emergent Art</em>.</p>
+                    </article>
+                </section>
             </section>
-        </section>
-        <section class="space-y-5">
-            <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Work</h2>
-            <section class="ml-2 space-y-6">
-                <article>
-                    <a href="https://www.figma.com/community/widget/1036372982291551669" target=”_blank” class="font-medium text-black underline-none hover:underline">Scope Todo</a>
-                    <p class="mt-0.5 text-gray">Todo widget for <a class="underline" href="https://world.hey.com/rjs/14-small-tools-for-shaping-cf05ac6c">affinitizing</a> and <a class="underline" href="https://world.hey.com/rjs/1-unfolding-the-interrelationship-diagram-5a79e3fc">sequencing</a> work in FigJam.</p>
-                    <!-- <p class="hover:underline cursor-pointer text-sm leading-5 mt-1 mb-0.5 font-bold text-gray-lighter flex items-baseline w-36">Read the case study <span class="pl-0.5 leading-3">→</span></p> -->
-                </article>
-                <article>
-                    <a href="https://dissect-design-sigma.vercel.app/" target=”_blank” class="font-medium text-black underline-none hover:underline leading-6">Dissect Design</a>
-                    <p class="text-gray">Collection of product design case studies.</p>
-                    <!-- <p class="hover:underline cursor-pointer text-sm leading-5 mt-1 font-bold text-gray-lighter flex items-baseline w-36">Read the case study <span class="pl-0.5 leading-3">→</span></p> -->
-                </article>
+            <section class="flex flex-col items-center space-y-6 ">
+                <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Work</h2>
+                <section class="space-y-6">
+                    <article class="flex flex-col items-center">
+                        <a class="text-center font-semibold text-black underline-none hover:underline" href="https://www.figma.com/community/widget/1036372982291551669" target=”_blank”>Scope Todo</a>
+                        <p class="text-center mt-0.5 text-gray">Todo widget for <a class="underline" href="https://world.hey.com/rjs/14-small-tools-for-shaping-cf05ac6c">affinitizing</a> and <a class="underline" href="https://world.hey.com/rjs/1-unfolding-the-interrelationship-diagram-5a79e3fc">sequencing</a> work in FigJam.</p>
+                    </article>
+                    <article class="flex flex-col items-center">
+                        <a href="https://dissect-design-sigma.vercel.app/" target=”_blank” class="text-center font-semibold text-black underline-none hover:underline">Dissect Design</a>
+                        <p class="text-center text-gray">Collection of product design case studies.</p>
+                    </article>
+                </section>
             </section>
-        </section>
-        <section class="space-y-5">
-            <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Writing</h2>
-            <section class="ml-2 space-y-6">
-                <article class="flex flex-col items-baseline flex-wrap">
-                    <a href="yes.html" class="font-medium text-black underline-none hover:underline py-0.5">Yes, you can learn to code</a>
-                    <p class="text-gray text-sm leading-5">Feb 2021</p>
-                </article>
+            <section class="flex flex-col items-center space-y-6 ">
+                <h2 class="text-gray-light text-sm font-bold tracking-wide uppercase">Writing</h2>
+                <section class="space-y-6">
+                    <article class="flex flex-col items-center flex-wrap">
+                        <a href="yes.html" class="text-center font-semibold text-black underline-none hover:underline py-0.5">Yes, you can learn to code</a>
+                        <p class="text-gray text-center text-sm leading-5">Feb 2021</p>
+                    </article>
+                </section>
             </section>
-        </section>
-    </section>
-    <footer class="flex justify-between items-center border-t border-gray-border pt-5 mt-10">
-        <a href="mailto:max@dal.ca" target="_blank" class="text-gray">max@dal.ca</a>
-        <div class="flex items-center justify-end space-x-4">
-            <a href="https://github.com/maxgeor">
-                <a href="https://twitter.com/maxoulos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-gray-light cursor-pointer" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-                </a>
-            </a>
-            <a href="https://github.com/maxgeor">
-                <svg class="fill-current text-gray-light cursor-pointer" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z"/>
-                </svg>
-            </a>
         </div>
+    <footer class="flex flex-col items-center pt-8 space-y-4">
+        <a href="mailto:max@dal.ca" target="_blank" class="text-gray">max@dal.ca</a>
+        <a href="https://github.com/maxgeor">
+            <svg class="fill-current text-gray-light cursor-pointer" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0C5.374 0 0 5.373 0 12C0 17.302 3.438 21.8 8.207 23.387C8.806 23.498 9 23.126 9 22.81V20.576C5.662 21.302 4.967 19.16 4.967 19.16C4.421 17.773 3.634 17.404 3.634 17.404C2.545 16.659 3.717 16.675 3.717 16.675C4.922 16.759 5.556 17.912 5.556 17.912C6.626 19.746 8.363 19.216 9.048 18.909C9.155 18.134 9.466 17.604 9.81 17.305C7.145 17 4.343 15.971 4.343 11.374C4.343 10.063 4.812 8.993 5.579 8.153C5.455 7.85 5.044 6.629 5.696 4.977C5.696 4.977 6.704 4.655 8.997 6.207C9.954 5.941 10.98 5.808 12 5.803C13.02 5.808 14.047 5.941 15.006 6.207C17.297 4.655 18.303 4.977 18.303 4.977C18.956 6.63 18.545 7.851 18.421 8.153C19.191 8.993 19.656 10.064 19.656 11.374C19.656 15.983 16.849 16.998 14.177 17.295C14.607 17.667 15 18.397 15 19.517V22.81C15 23.129 15.192 23.504 15.801 23.386C20.566 21.797 24 17.3 24 12C24 5.373 18.627 0 12 0Z"/>
+            </svg>
+        </a>
+        <a href="https://twitter.com/maxoulos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-gray-light cursor-pointer" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+        </a>
     </footer>
 </body>
 </html>
