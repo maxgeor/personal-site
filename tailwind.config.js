@@ -14,13 +14,10 @@ module.exports = {
         nanum: ['Nanum Myeongjo', 'serif'],
       },
       fontSize: {
-        sm: ['12.5px', '20px'],
-        md: ['15px', '24px'],
-        base: ['16px', '24px'],
-        lg: ['18px', '28px'],
-        xl: ['21.6px', '28px'],
-        '2xl': ['25.92px', '32px'],
-        '3xl': ['31.10px', '36px'],
+        sm: ['15.83px', '24px'],
+        md: ['19px', '28px'],
+        lg: ['22.80px', '28px'],
+        xl: ['27.36px', '32px'],
       },
       colors: {
         white: '#fff',
@@ -32,7 +29,7 @@ module.exports = {
           DEFAULT: '#716A6E',
           dark: "#594F55"
         },
-        black: '#100006',
+        black: '#302428',
       },
     },
   },
