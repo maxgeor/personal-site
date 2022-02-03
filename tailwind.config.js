@@ -7,11 +7,7 @@ module.exports = {
         tablet: '618px'
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        cardo: ['Cardo', 'serif'],
         crimson: ['Crimson Pro', 'serif'],
-        spectral: ['Spectral', 'serif'],
-        nanum: ['Nanum Myeongjo', 'serif'],
       },
       fontSize: {
         sm: ['15.83px', '24px'],
