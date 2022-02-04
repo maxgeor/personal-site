@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        tablet: '618px'
+        tablet: '548px'
       },
       fontFamily: {
         crimson: ['Crimson Pro', 'serif'],
