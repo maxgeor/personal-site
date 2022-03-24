@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         crimson: ['Crimson Pro', 'serif'],
       },
+      letterSpacing: {
+        tightish: '-0.0125em',
+      },
       fontSize: {
         sm: ['15.83px', '24px'],
         md: ['19px', '28px'],
