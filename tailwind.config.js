@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      opacity: {
+        15: '0.15',
+      },
       screens: {
         tablet: '548px'
       },
